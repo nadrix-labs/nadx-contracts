@@ -4,19 +4,6 @@ The value layer of the Nadrix ecosystem — a **fixed-cap, non-mintable** BEP-20
 
 NADX is assembled entirely from audited [OpenZeppelin](https://openzeppelin.com/contracts/) standard components (`ERC20` + `ERC20Capped` + `ERC20Burnable`) with **no custom token logic**.
 
-## Token specification
-
-| Item | Value |
-|---|---|
-| Standard | OpenZeppelin ERC20 + ERC20Capped + ERC20Burnable |
-| Name | `Nadrix` |
-| Symbol | `NADX` |
-| Decimals | `18` |
-| Cap (MAX_SUPPLY) | `10,000,000,000 x 10^18` (10 billion) |
-| Minting | None — the full supply is minted once to the treasury in the constructor; the contract exposes no mint function |
-| Burning | Retained (`burn` / `burnFrom`) |
-| Transfer tax / blocklist / pausable / custom hooks | **None** |
-
 ## Deployment
 
 - **Network:** BNB Smart Chain (BEP-20)
